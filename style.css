@@ -77,6 +77,20 @@ nav a {
     image-resolution: inherit;
 }
 
+#btn {
+    width: 100%;
+    height: 60px;
+    background-color: var(--Bg);
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+}
+
+#btn:hover {
+    background-color: black;
+    color: white;
+}
+
 @keyframes cambio {
     0% {
         margin-left: 0;
